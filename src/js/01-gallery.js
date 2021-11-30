@@ -29,6 +29,6 @@ function createGallerySample(sample) {
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
-  captionPosition: 'outside',
+  captionPosition: 'bottom',
   captionDelay: 250,
 });
